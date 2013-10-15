@@ -29,7 +29,7 @@ public class GiantEyeCircle extends Critter {
         getGraphics().add(body4);
 
 
-        Eye midEye = new Eye(20, 0.6, 0.1, Color.MAGENTA);
+        Eye midEye = new Eye(24, 0.6, 0.3, Color.GRAY);
         addEye(midEye, 0, 0);
     }
 }
